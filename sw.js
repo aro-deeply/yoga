@@ -1,6 +1,6 @@
 // 아사나 산스크리트어 암기: 오프라인 캐시
-const CACHE = "asana-sanskrit-v1";
-const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
+const CACHE = "asana-sanskrit-v2";
+const FILES = ["./", "./index.html", "./list.html", "./print.html", "./app/", "./app/index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./file/asana-sanskrit-print.pdf", "./fonts/p400.woff2", "./fonts/p500.woff2", "./fonts/p600.woff2", "./fonts/p700.woff2", "./fonts/p800.woff2"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
 });

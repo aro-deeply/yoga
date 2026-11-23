@@ -1,9 +1,10 @@
 {
   "name": "아사나 산스크리트어 암기",
   "short_name": "산스크리트어 암기",
-  "description": "숨쉬는고래 TTC 교재 18~39쪽 아사나 이름 암기 카드",
+  "description": "숨쉬는고래 TTC 교재 18~39쪽 아사나 이름 암기",
   "lang": "ko",
-  "start_url": "./",
+  "id": "./app/",
+  "start_url": "./app/",
   "scope": "./",
   "display": "standalone",
   "background_color": "#FAF8F5",
